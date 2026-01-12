@@ -1,5 +1,5 @@
 -- SQL Retail Sales Analysis 
-CREATE DATABASE retail_sales;
+CREATE DATABASE retail_sales_db;
 
 
 -- Create TABLE
@@ -20,14 +20,11 @@ CREATE TABLE retail_sales
             );
 
 SELECT * FROM retail_sales
-LIMIT 10
-
-
-    
+LIMIT 10;    
 
 SELECT 
     COUNT(*) 
-FROM retail_sales
+FROM retail_sales;
 
 -- Data Cleaning
 SELECT * FROM retail_sales
